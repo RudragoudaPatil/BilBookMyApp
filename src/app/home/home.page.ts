@@ -9,7 +9,7 @@ export class HomePage {
   slideData:any = [];
   movieList:any = [];
     constructor(){
-      this.slideData = [{ image: "../../assets/bhil.png" },
+      this.slideData = [
       { image: "../../assets/slide5.jpg" },
       { image: "../../assets/slide6.jpg" },
       { image: "../../assets/slide2.jpg" }, 

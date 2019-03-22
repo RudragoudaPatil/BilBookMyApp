@@ -1,0 +1,40 @@
+
+<ion-content>
+    <ion-card >
+        <ion-img src="assets/book.png"></ion-img>
+      </ion-card>
+    <ion-card>
+      <ion-item>
+        <ion-title style="background-color:#4547b4; color:#fff">Create Your Account</ion-title>
+      </ion-item>
+  <ion-item>
+    <ion-label position="floating">Enter UsernName</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Enter Email</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+  <ion-item>
+      <ion-label position="floating">Enter Password</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label position="floating">Confirm Password</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+      <ion-item>
+          <ion-label  position="floating">Select DateofBirth</ion-label>
+          <ion-datetime displayFormat="DD MM YY"></ion-datetime>
+        </ion-item>
+  <ion-grid color="primary">
+      <ion-row>
+          <ion-col text-center>
+  
+  <ion-button color="tertiary" (click)="onRegister()">SignUp</ion-button>
+  </ion-col>
+  </ion-row>
+  </ion-grid>
+  
+  </ion-card>
+  </ion-content> 

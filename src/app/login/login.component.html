@@ -1,0 +1,58 @@
+<!-- <ion-header>
+  <ion-toolbar >
+    <ion-title style="background-color:orange" >BookMyTicket</ion-title>
+  </ion-toolbar>
+</ion-header> -->
+ <ion-content>  
+   <ion-card >
+     <ion-img src="assets/book.png"></ion-img>
+   </ion-card>
+  <ion-card>
+    <ion-item >
+        <ion-title style="background-color:#4547b4; color:#fff"><h3>Login </h3></ion-title>
+    </ion-item>
+    <ion-item>
+        <ion-label position="floating">Enter UserName</ion-label>
+          <ion-input></ion-input>
+    </ion-item>
+    <ion-item>
+            <ion-label position="floating">Enter Password</ion-label>
+            <ion-input></ion-input>
+    </ion-item>
+    <ion-grid>
+      <ion-row>
+        <ion-col text-center>
+          <ion-button color="success" (click)="onLogin()" >Login</ion-button>
+          <ion-button color="tertiary" (click)="onRegister()">SignUp</ion-button>
+
+        </ion-col>
+        </ion-row>
+        </ion-grid>
+        <h6> Are You Forgot Your Password ?<a href="/forgotPassword" style="color:blue" >Click Here..</a></h6>
+  </ion-card>
+
+</ion-content>
+<!-- <ion-content >
+      <ion-grid>
+        <ion-row color="primary" justify-content-center>
+          <ion-col align-self-center size-md="6" size-lg="5" size-xs="12">
+            <div text-center>
+              <h3>Login to your account!</h3>
+            </div>
+            <div padding>
+                <ion-item>
+                    <ion-input  name="name" type="text" placeholder="Name"  required></ion-input>
+                  </ion-item>
+                <ion-item>
+                    <ion-input name="confirm" type="password" placeholder="Password "  required></ion-input>
+                  </ion-item>   
+            </div>
+            <div padding >
+              <ion-button color="success" (click)="onLogin()" >Login</ion-button>
+              <ion-button color="tertiary" (click)="onRegister()">SignUp</ion-button>
+            </div>
+            <h6> Are You Forgot Your Password ?<a href="/forgotPassword" style="color:red">Click Here..</a></h6>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+  </ion-content> -->

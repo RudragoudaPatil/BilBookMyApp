@@ -1,0 +1,30 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>
+       Booking
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+<ion-content>
+    <ion-card >
+        <ion-img src="assets/book.png"></ion-img>
+      </ion-card>
+<ion-card>
+    <ion-card-header>
+        <ion-card-subtitle>You selected</ion-card-subtitle>
+        <ion-card-title>KGF</ion-card-title>
+      </ion-card-header>
+  <ion-item>
+      <ion-card-subtitle>Select No of Seats you Want..</ion-card-subtitle>
+      <ion-label position="floating">How many Tickets You Need</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+          <ion-button color="primary" expand="block" (click)="onBooking()">BookNow</ion-button>  
+   
+     
+    </ion-card>
+</ion-content>

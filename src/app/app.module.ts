@@ -12,9 +12,11 @@ import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import { ViewBookingComponent } from './view-booking/view-booking.component';
+import { AddBookingComponent } from './add-booking/add-booking.component';
 
 @NgModule({
-  declarations: [AppComponent,LoginComponent,SignupComponent,ForgotPasswordComponent,ViewBookingComponent],
+  declarations: [AppComponent,LoginComponent,SignupComponent,
+    ForgotPasswordComponent,ViewBookingComponent,AddBookingComponent],
   entryComponents: [],
   imports: [
     BrowserModule,

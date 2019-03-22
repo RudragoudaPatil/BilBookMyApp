@@ -4,6 +4,7 @@ import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import { ViewBookingComponent } from './view-booking/view-booking.component';
+import { AddBookingComponent } from './add-booking/add-booking.component';
 
 const routes: Routes = [
   {
@@ -34,7 +35,11 @@ const routes: Routes = [
   {
     path:'viewBooking',
     component:ViewBookingComponent
-  }
+  },
+  {
+  path:'addbooking',
+  component:AddBookingComponent
+}
 
 ];
 

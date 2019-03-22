@@ -1,9 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Movie List
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
 <ion-content>
-  <ion-card>
+  <!-- <ion-card>
       <ion-item >
           <ion-title><h3>Movie List </h3></ion-title>
       </ion-item>
-  </ion-card>
+  </ion-card> -->
 <ion-card>
     
   <ion-img src="assets/movie.jpg"></ion-img>
@@ -17,7 +27,7 @@
       and climb a mountain or spend a week in the woods. Wash your spirit clean.
     </ion-card-content>
     <ion-button color="success" (click)="onLogin()" >ViewRating</ion-button>
-    <ion-button color="danger" style="float: right" (click)="onLogin()" >BookNow</ion-button>
+    <ion-button color="danger" style="float: right" (click)="onBooking()" >BookNow</ion-button>
   </ion-card>
 
   <ion-card>

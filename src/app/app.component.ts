@@ -14,11 +14,22 @@ export class AppComponent {
       title: 'Home',
       url: '/home',
       icon: 'home'
+      
     },
     {
-      title: 'List',
+      title: 'Add-on',
       url: '/list',
-      icon: 'list'
+      icon: 'logo-youtube'
+    },
+    {
+      title: 'Movies',
+      url: '/viewBooking',
+      icon: 'videocam'
+    },
+    {
+      title: 'Logout',
+      url: '/login',
+      icon: 'exit'
     }
   ];
 
